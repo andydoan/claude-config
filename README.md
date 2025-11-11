@@ -44,6 +44,36 @@ Personal Claude Code configuration for productive web development with **12 slas
 - **learning-guide** - Teaching programming concepts progressively
 - **deep-research-agent** - Comprehensive research with adaptive strategies
 
+## Installation
+
+### Quick Install
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/claude-config.git
+cd claude-config
+
+# Run the installer
+./install.sh
+```
+
+The installer will prompt you to choose:
+1. **Project-specific** - Install to current directory (`./.claude`)
+2. **Global** - Install to home directory (`~/.claude`) - affects all projects
+3. **Custom path** - Specify your own installation location
+
+### Manual Installation
+
+Copy the `.claude` directory to your desired location:
+
+```bash
+# For project-specific installation
+cp -r .claude /path/to/your/project/
+
+# For global installation
+cp -r .claude ~/
+```
+
 ## Best For
 
 - Next.js developers
