@@ -1,0 +1,21 @@
+{
+  "includeCoAuthoredBy": false,
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(cat *)",
+      "Read",
+      "Edit",
+      "Write",
+      "Grep",
+      "Glob"
+    ],
+    "deny": [
+      "Read(.env*)",
+      "Read(**/.env*)",
+      "Bash(rm -rf *)"
+    ],
+    "defaultMode": "acceptEdits"
+  }
+}
